@@ -1,0 +1,5 @@
+{"State":1,"MsgID":"fb1a18657fc152ff18-09-2022 22:08:34.593","MsgType":"smartotp_check_active_response","TransactionID":"16635533145937482"}
+{"State":1,"MsgID":"fb1a18657fc152ff18-09-2022 22:08:34.593","MsgType":"smartotp_check_active_response","TransactionID":"16635533145937482"}
+{"State":1,"MsgID":"fb1a18657fc152ff18-09-2022 22:08:34.593","MsgType":"smartotp_check_active_response","TransactionID":"16635533145937482"}
+{"State":1,"MsgID":"fb1a18657fc152ff18-09-2022 22:08:34.593","MsgType":"smartotp_check_active_response","TransactionID":"16635533145937482"}
+{"State":1,"MsgID":"fb1a18657fc152ff18-09-2022 22:08:34.593","MsgType":"smartotp_check_active_response","TransactionID":"16635533145937482"}
