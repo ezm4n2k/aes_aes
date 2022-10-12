@@ -1,8 +1,5 @@
-from email.mime import base
-from Crypto.Cipher import AES
 from os import urandom
 import binascii
-import os
 import pyaes
 import os
 import base64
