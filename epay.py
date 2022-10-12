@@ -10,7 +10,6 @@ password = 'BA99FDF9FEEC1EF9896DE9BF00CF27C4'
 key = bytes(password, 'utf-8')
 
 def decrypt(data):
-    # string = "4+qTBjU+oXP5pvG9j0lQa9g5eNfBbzyaD/o6DcxZcvY3LNnN5VAZ3W3dv+VeXmXpUCH1spqFFzf+PAPKaes4+C8c6q89/n2ICQJnJjn/t/O9jKcB2kwI/Qa8dnyFRMDbYYAHnkZr8nw7KZIv99SQ75EKrSjSIG0CQhHqGrTfgFnMI/ESRnzNRt6aXqolX6osdN+9msZuAcU1rV6QTrpGF9nVp5s="
     a = base64.b64decode(data)
     ival = a[0:16]
     iv = int.from_bytes(ival, "big")
@@ -23,7 +22,6 @@ def decrypt(data):
     return(str(_result_,'utf-8'))
 
 def encrypt(data):
-    # message = '{"State":1,"MsgID":"fb1a18657fc152ff18-09-2022 22:08:34.593","MsgType":"smartotp_check_active_response","TransactionID":"16635533145937482"}'
     ival= os.urandom(16)
     iv = int.from_bytes(ival, "big")
     aes = pyaes.AESModeOfOperationCTR(key, pyaes.Counter(iv))
