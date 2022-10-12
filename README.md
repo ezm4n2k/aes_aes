@@ -1,6 +1,6 @@
 # aes_epay
 
-python epay.py -i INPUT -m {e.d} -o OUTPUT
+python main.py -i INPUT -m {e.d} -o OUTPUT
 
 i: input file
 
