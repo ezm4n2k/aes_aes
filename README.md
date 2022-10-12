@@ -1,4 +1,4 @@
-# aes_epay
+# aes
 
 python main.py -i INPUT -m {e.d} -o OUTPUT
 
